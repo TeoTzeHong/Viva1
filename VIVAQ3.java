@@ -33,7 +33,7 @@ public class VivaQ3 {
        for (int i =1; i<=num;i++)  //prime check
        {  
         if (num%i==0)
-        isPrime++;
+        isPrime++;            // the number of factors
        }
        
        if (isPrime==2)
@@ -90,7 +90,7 @@ public class VivaQ3 {
                 else 
                     System.out.println(num+" is not a perfect number.");
                 
-                System.out.print("Prime numbers between 2 and "+num+" : "); //listung prime number
+                System.out.print("Prime numbers between 2 and "+num+" : "); //listing prime number
                 
                 
                 for (int prime =2;prime<num;prime++)  { 
@@ -98,7 +98,7 @@ public class VivaQ3 {
                 for (int i =1; i<=num;i++) 
                 {  
                     if (prime%i==0)
-                        newisPrime++;
+                        newisPrime++;       //the numberof factors
                 }
       
                     if (newisPrime == 2 ) {
