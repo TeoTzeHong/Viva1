@@ -98,7 +98,7 @@ public class VivaQ3 {
                 for (int i =1; i<=num;i++) 
                 {  
                     if (prime%i==0)
-                        newisPrime++;       //the numberof factors
+                        newisPrime++;       //the number of factors
                 }
       
                     if (newisPrime == 2 ) {
